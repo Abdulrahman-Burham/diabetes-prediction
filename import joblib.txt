@@ -1,0 +1,5 @@
+import joblib
+
+# After training and selecting best_model and label_encoder
+joblib.dump(best_model, 'best_model.pkl')
+joblib.dump(label_encoder, 'label_encoder.pkl')
